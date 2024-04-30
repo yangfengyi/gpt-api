@@ -96,3 +96,9 @@ Add a new action for you GPT, this is an example for you Schema:
 
 - [科技文章翻译 GPT](https://chat.openai.com/g/g-uBhKUJJTl-ke-ji-wen-zhang-fan-yi)
 - [TweetReader GPT](https://chat.openai.com/g/g-jQyjBVVhg-tweetreader)
+
+# Build
+
+```bash
+docker buildx build --platform linux/amd64 -t registry.cn-hangzhou.aliyuncs.com/dzhk-tech/url2md . --push
+```

@@ -2,9 +2,9 @@ let bearerTokenSet: Set<string> | null = null;
 
 export const getBearerTokenSet = (): Set<string> => {
   if (!bearerTokenSet) {
-    const tokensString = process.env.BEARER_TOKENS || "";
+    const tokensString = process.env.BEARER_TOKENS || '';
     const tokens = tokensString
-      .split(",")
+      .split(',')
       .map((token) => token.trim())
       .filter((token) => token.length > 0);
 

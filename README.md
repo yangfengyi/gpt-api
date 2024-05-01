@@ -16,7 +16,7 @@ Build APIs for GPT
 $ npm run dev
 ```
 
-`http://localhost:3333/api/url2md?url=https://baoyu.io`
+`http://localhost:3001/api/url2md?url=https://baoyu.io`
 
 ## Authentication for your APIs
 
